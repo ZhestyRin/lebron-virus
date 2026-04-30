@@ -63,7 +63,14 @@ docklebron() {
         open -n ~/lebronapp.app
 }
 
-all_funcs=("copylebron" "linklebron" "notiflebron" "saylebron" "openpiclebron" "warnlebron" "docklebron")
+menubarlebron() {
+        count=$(ps -eo command | grep -i "lebronappcopy" | wc -l | tr -d ' ')
+        if [ "$count" -le 10 ]; then
+                open -n ~/lebronappcopy.app
+        fi
+}
+
+all_funcs=("copylebron" "linklebron" "notiflebron" "saylebron" "openpiclebron" "warnlebron" "docklebron" "menubarlebron")
 
 while true
 do
