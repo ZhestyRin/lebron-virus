@@ -10,9 +10,9 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
-    <string>com.example.minimalapp</string>
+    <string>com.lucas.lebronapp</string>
     <key>CFBundleDisplayName</key>
-    <string>MinimalApp</string>
+    <string>LebronApp</string>
     <key>CFBundleExecutable</key>
     <string>applet</string>
     <key>CFBundlePackageType</key>
