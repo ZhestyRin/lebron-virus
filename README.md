@@ -6,4 +6,4 @@ This is a funny virus I guess.
 
 # how to run
 ---
-Run `lebronscript.sh`. It runs the other two scripts.
+Run `lebronscript.sh`. It curls runs the other two scripts. You don't need to install any dependencies.
