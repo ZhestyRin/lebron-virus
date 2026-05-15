@@ -1,10 +1,14 @@
-# lebron virus
+# Lebron Virus
 ---
-This is a funny virus I guess. 
+
 ## caveats 
-- This only works on MacOS, sorry.  
+- This is a fork, i make it work on Linux.
 - Any damage you make on your computer is on you. This shouldn't be any btw. Your desktop is backed up to ~/Desktop_backup.
-- The functionality which inserts images of **Lebron** into your menu bar, which I spent an entire cs double period on, is sadly disabled; the reason is twofold. Firstly, it requires an installation of xcode command line tools, but i intend this script to be fully native. Secondly, the swift compile time is atrocious, especially for a "virus". If you want it back, uncomment the last line in `lebronapp.sh` and the `lebronmenubar()` definition in the main script, and add the function name to the list below.
+- The functionality which insert images of Lebron to your screen, and drain every bit of your braincells.
+- Please make sure you can unplug your computer power or battery. Or straight to tty when your braincells is less than what human need to function properly.
+- Sudo is needed for installing dependencies.
 
 ## how to run
-Run `lebronscript.sh` by itself. It curls and runs the other two scripts. You don't need to install any dependencies.
+Run `./lebronscript.sh`, or `bash lebronscript.sh` by itself. It curls and runs the other two scripts. 
+
+
