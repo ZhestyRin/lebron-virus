@@ -9,6 +9,6 @@
 - Sudo is needed for installing dependencies.
 
 ## how to run
-Run `./lebronscript.sh`, or `bash lebronscript.sh` by itself. It curls and runs the other two scripts. 
+Run `./lebronscript.sh`, or `bash lebronscript.sh` by itself. It curls and run the script. 
 
 
